@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: seashell;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+#page1 #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 2.5vw;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-weight: 400;
+    font-size: 0.75vw;
+    gap: 8px;
+    /* letter-spacing: -1px; */
+}
+#navbar a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#part1{
+    width: 100vw;
+    height: 35vw;
+    /* background-color: black; */
+    background-image: url(https://www.apple.com/v/home/cd/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg);
+    background-position: center;
+    object-fit: cover;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#part1 h1 {
+    color: white;
+     font-size: 2.8vw;
+     text-align: center;
+     padding-top: 30px;
+     letter-spacing: -2px;
+     /* text-transform: uppercase; */
+    }
+#part2 h1 {
+    color: white;
+     font-size: 2.8vw;
+     text-align: center;
+     padding-top: 30px;
+     letter-spacing: -2px;
+     /* text-transform: uppercase; */
+    }
+#part1 p {
+        color: white;
+        font-size: 1.7vw;
+        text-align: center;
+        text-transform: capitalize;
+        
+     /* padding-top: 30px; */
+}
+#part2 p {
+        color: white;
+        font-size: 1.7vw;
+        text-align: center;
+        /* text-transform: capitalize; */
+        
+     /* padding-top: 30px; */
+}
+#buton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+button{
+    font-size: 1.15vw;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid #3535ff;
+}
+#buton .b1{
+    background-color: #3535ff;
+    color: white;
+}
+#buton .b2{
+    background-color: transparent;
+    color: #3535ff;
+}
+#buton .b2:hover{
+    color: #ffffff;
+    background-color: #3535ff;
+
+}
+
+#part2{
+    width: 100vw;
+    height: 35vw;
+    /* background-color: rgb(133, 1, 1); */
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_large.jpg);
+    /* object-fit: cover; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
